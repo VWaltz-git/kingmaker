@@ -45,7 +45,7 @@ plugins:
     options:
       theme: "its-theme"
       variation: "ttrpg-pathfinder"
-      mode: "dark"
+      mode: "both"
   - source: "@quartz-community/created-modified-date"
     enabled: true
     options:
