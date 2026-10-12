@@ -41,11 +41,6 @@ configuration:
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#b3aa0288"
 plugins:
-  - source: "@quartz-themes/core"
-    options:
-      theme: "its-theme"
-      variation: "ttrpg-pathfinder"
-      mode: "both"
   - source: "@quartz-community/created-modified-date"
     enabled: true
     options:
@@ -278,6 +273,11 @@ plugins:
       darkMode: auto
       exportPadding: 20
     order: 50
+  - source: "@quartz-themes/core"
+    options:
+      theme: "its-theme"
+      variation: "ttrpg-pathfinder"
+      mode: "both"    
 layout:
   groups:
     toolbar:
