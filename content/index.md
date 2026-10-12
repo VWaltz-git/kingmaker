@@ -1,6 +1,8 @@
 ---
-title: Welcome to Quartz
+title: Kingmaker
 ---
-
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+# Знания
+## Божества
+1. [[Апсу]]
+2. [[Гротус]]
+3. [[Ургатоа]]
