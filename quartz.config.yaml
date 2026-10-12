@@ -273,11 +273,6 @@ plugins:
       darkMode: auto
       exportPadding: 20
     order: 50
-  - source: "@quartz-themes/core"
-    options:
-      theme: "its-theme"
-      variation: "ttrpg-pathfinder"
-      mode: "both"    
 layout:
   groups:
     toolbar:
