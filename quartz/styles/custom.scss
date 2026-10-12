@@ -1,3 +1,14 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+a.internal {
+  background: none !important;       // Полностью удаляет любой фон
+  background-color: transparent !important; // Гарантирует прозрачность
+  padding: 0 !important;             // Убирает боковые отступы, чтобы текст не раздвигался
+  border-radius: 0;                  // Сбрасывает закругление углов
+  
+  &:hover {
+    background: none !important;     // Прозрачный фон при наведении
+    background-color: transparent !important;
+  }
+}
