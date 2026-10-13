@@ -113,7 +113,7 @@ plugins:
   - source: "@quartz-themes/core"
     enabled: true
     options:
-      theme: "abecedarium"
+      theme: abecedarium
       mode: both
   - source: "@quartz-community/remove-draft"
     enabled: true
@@ -272,6 +272,11 @@ plugins:
       enableInteraction: true
       darkMode: auto
       exportPadding: 20
+    order: 50
+  - source: github:Requiae/quartz-leaflet-bases-plugin
+    enabled: true
+    options:
+      enableCopyTool: false
     order: 50
 layout:
   groups:
